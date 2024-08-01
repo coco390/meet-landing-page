@@ -18,7 +18,7 @@ body {
     background-image: url(./assets/desktop/image-hero-left.png),
                       url(./assets/desktop/image-hero-right.png);
     background-repeat: no-repeat, no-repeat;
-    background-position: -3% 262%, 102% 381%;
+    background-position: -3% 262%, 102% 360%;
     height: 303px;
     z-index: 1;
 }
@@ -39,7 +39,6 @@ body {
     padding: 1rem;
     width: 448px;
     height: auto;
-    overflow: hidden;
 }
 
 /*Hero Content Styling*/
@@ -47,19 +46,20 @@ body {
     font-size: 64px;
     color: #28283D;
     font-weight: 900;
-    margin-bottom: 2rem;
+    margin-bottom: 3rem;
 }
 
 .hero-content p {
     font-size: 18px;
     color: #87879D;
-    margin-bottom: 2rem;
+    margin: -17px;
 }
 
 .hero-info-container{
     display: flex;
     gap: 1rem;
     color: white;
+    margin-top: 3rem;
 }
 
 .hero-download-text{
