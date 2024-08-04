@@ -73,15 +73,18 @@ nav {
     margin-top: 3rem;
 }
 
-.hero-download-text{
+.hero-download{
     background-color: #4D96A9;
     border: 1rem solid #4D96A9;
     border-radius: 29px;
     width: 193px;
     height: 56px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
 }
 
-.hero-download-text span {
+.hero-download span {
     color: #8FE3F9;
 }
 
@@ -91,6 +94,9 @@ nav {
     border-radius: 29px;
     width: 193px;
     height: 56px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
 }
 
 /*Main Content*/
@@ -201,4 +207,19 @@ footer {
 #connected {
     font-size: 18px;
     font-weight: 500;
+}
+
+.download {
+    background-color: #855FB1;
+    border: 1rem solid #855FB1;
+    border-radius: 29px;
+    width: 193px;
+    height: 56px;
+    color: white;
+    font-size: 16px;
+    font-weight: 700;
+}
+
+.footer-container span{
+    color: #D9B8FF;
 }
