@@ -23,6 +23,27 @@ body {
     z-index: 1;
 }
 
+/*Number with Circle Border*/
+.border-text {
+    width: 50px;
+    line-height: 50px;
+    border-radius: 50%;
+    text-align: center;
+    border: 1px solid #D1D1DF;
+    margin-bottom: 5rem;
+}
+
+.vertical-line-container {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.vertical-line {
+    width: 1px;
+    height: 80px;
+}
+
 /*Nav Image*/
 .logo {
     width: 118px;
@@ -39,6 +60,7 @@ body {
     padding: 1rem;
     width: 448px;
     height: auto;
+    margin-bottom: 4rem;
 }
 
 /*Hero Content Styling*/
@@ -80,4 +102,52 @@ body {
     border-radius: 29px;
     width: 193px;
     height: 56px;
+}
+
+/*Main Content*/
+.main-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 4rem;
+}
+
+.main-container img {
+    width: 256px;
+    height: 256px;
+}
+
+.image-container {
+    display: flex;
+    gap: 2rem;
+    margin-bottom: 3rem;
+}
+
+/*Main Content Styling*/
+.main-content {
+    padding: 1rem;
+    width: 544px;
+    height: 235px;
+}
+#modern {
+    color: #4D96A9;
+    font-size: 16px;
+    font-weight: 900;
+    text-transform: uppercase;
+    margin-bottom: 1rem;
+}
+
+#smarter {
+    color: #28283D;
+    font-size: 40px;
+    font-weight: 900;
+    margin-bottom: 3rem;
+}
+
+#messages {
+    color: #87879D;
+    font-size: 18px;
+    font-weight: 500;
+    margin: -1rem;
 }
