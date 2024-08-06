@@ -73,24 +73,30 @@ nav {
     margin-top: 3rem;
 }
 
+/*Download Button Styling*/
 .hero-download{
     background-color: #4D96A9;
-    border: 1rem solid #4D96A9;
+    border: none;
     border-radius: 29px;
     width: 193px;
     height: 56px;
     color: white;
     font-size: 16px;
     font-weight: 700;
+}
+
+.hero-download:hover {
+    background-color: #71C0D4;
 }
 
 .hero-download span {
     color: #8FE3F9;
 }
 
+/*Description Button Styling*/
 .hero-description {
     background-color: #855FB1;
-    border: 1rem solid #855FB1;
+    border: none;
     border-radius: 29px;
     width: 193px;
     height: 56px;
@@ -98,6 +104,7 @@ nav {
     font-size: 16px;
     font-weight: 700;
 }
+
 
 /*Main Content*/
 .main-container {
@@ -193,10 +200,13 @@ footer {
 .footer-container {
     display: flex;
     justify-content: center;
+    align-items: center;
+    gap: 9rem;
     text-align: left;
     position: relative;
     z-index: 1;
     color: white;
+    width: 1180px;
 }
 
 #experience {
@@ -211,13 +221,17 @@ footer {
 
 .download {
     background-color: #855FB1;
-    border: 1rem solid #855FB1;
+    border: none;
     border-radius: 29px;
     width: 193px;
     height: 56px;
     color: white;
     font-size: 16px;
     font-weight: 700;
+}
+
+.download:hover {
+    background-color: #B18BDD
 }
 
 .footer-container span{
