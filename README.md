@@ -8,7 +8,7 @@ The Meet Landing Page is designed to showcase a clean and modern layout for a fi
 
 ## Live Demo
 
-You can view the live demo of the project [here](https://your-live-demo-link.com).
+You can view the live demo of the project [here](https://your-live-demo-link.com](https://coco390.github.io/meet-landing-page/).
 
 ## Features
 
