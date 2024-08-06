@@ -8,7 +8,6 @@ This is a solution to the [Meet landing page challenge on Frontend Mentor](https
   - [The challenge](#the-challenge)
   - [Links](#links)
   - [Built with](#built-with)
-  - 
 
 
 ## Overview
