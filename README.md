@@ -4,7 +4,7 @@ Welcome to the Meet Landing Page project! This project is part of the Frontend M
 
 ## Project Overview
 
-The Meet Landing Page is designed to showcase a clean and modern layout for a fictional product or service. The goal is to implement the design provided by Frontend Mentor and ensure that it is fully responsive and visually appealing across different devices.
+The Meet Landing Page is designed to showcase a clean and modern layout for a fictional product or service. The goal is to implement the design provided by Frontend Mentor and ensure that it is fully responsive and visually appealing across different devices. The devices were widescreen (1440px), tablet (768px), and mobile (375px).
 
 ## Live Demo
 
@@ -14,11 +14,11 @@ You can view the live demo of the project [here](https://coco390.github.io/meet-
 
 - **Responsive Design**: The landing page is fully responsive and adjusts seamlessly to different screen sizes.
 - **Cross-Browser Compatibility**: The design works across various browsers including Chrome, Firefox, and Safari.
-- **Accessible**: The page adheres to accessibility standards to ensure usability for all users.
+- **Accessible**: The page adheres to accessibility standards to ensure user usability.
 
 ## Technologies Used
 
 - **HTML5**: For structuring the content.
 - **CSS3**: For styling the page, including Flexbox and Grid layouts.
-- **Responsive Design**: Media queries are used to ensure the page is responsive across different devices.
+- **Responsive Design**: Media queries ensure the page is responsive across different devices.
 
