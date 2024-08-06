@@ -16,7 +16,7 @@ body {
                       url(./assets/desktop/image-hero-right.png);
     background-repeat: no-repeat, no-repeat;
     background-position: left -1rem top 10rem, right -1rem top 14rem;
-    height: 303px;
+    height: 100vh;
     z-index: 1;
 }
 
@@ -98,7 +98,7 @@ nav {
     background-color: #855FB1;
     border: none;
     border-radius: 29px;
-    width: 193px;
+    width: 161px;
     height: 56px;
     color: white;
     font-size: 16px;
@@ -201,12 +201,10 @@ footer {
     display: flex;
     justify-content: center;
     align-items: center;
-    gap: 9rem;
     text-align: left;
     position: relative;
     z-index: 1;
     color: white;
-    width: 1180px;
 }
 
 #experience {
@@ -217,6 +215,11 @@ footer {
 #connected {
     font-size: 18px;
     font-weight: 500;
+    max-width: 358px;
+    line-height: 1.5;
+    margin-bottom: 10px;
+    margin-left: 6rem;
+    margin-right: 12rem;
 }
 
 .download {
@@ -236,4 +239,122 @@ footer {
 
 .footer-container span{
     color: #D9B8FF;
+}
+
+/*Media Queries*/
+@media (max-width: 768px) {
+    /*Adjust background images*/
+    body {
+        background-position: left -1rem top 14rem, right -1rem top 14rem;
+    }
+    /*Moved hero section down*/
+    hero {
+        margin-top: 26rem;
+    }
+
+    .hero-content h1 {
+        font-size: 48px;
+    }
+
+    .hero-content p {
+        font-size: 16px;
+    }
+
+    footer {
+        padding: 5rem;
+    }
+
+    .image-container {
+        margin-top: 4rem;
+    }
+
+    .main-container img {
+        width: 152px;
+        height: 160px;
+    }
+
+    #modern {
+        font-size: 14px;
+    }
+
+    #smarter {
+        font-size: 36px;
+    }
+
+    .footer-container {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+        gap: 17px;
+    }
+
+    #connected {
+        font-size: 18px;
+        font-weight: 500;
+        max-width: none;
+        margin-bottom: 0;
+        margin-left: 0;
+        margin-right: 0;
+    }
+}
+
+@media (max-width: 375px) {
+    body{
+        background-position: left -2rem top 14rem, right -1rem top 14rem;
+        background-size: 206px 160px;
+    }
+    nav {
+        margin-top: 6rem;
+    }
+    hero {
+        margin-top: 15rem;
+    }
+
+    .hero-content h1 {
+        font-size: 40px;
+    }
+
+    .hero-container {
+        width: 305px;
+        margin-bottom: 4rem;
+    }
+
+    .hero-info-container{
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .image-container {
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        grid-template-rows: repeat(2, auto);
+        gap: 1rem;
+        margin-bottom: 1.5rem;
+    }
+
+    .main-content {
+        width: 311px;
+        height: 251px;
+        margin-bottom: 3rem;
+        padding: 2px;
+    }
+
+    .main-container img {
+        width: 147.5px;
+        height: 144px;
+    }
+
+    #modern {
+        font-size: 12px;
+    }
+
+    #smarter {
+        font-size: 32px;
+    }
+
+    footer {
+        padding: 1rem;
+    }
 }
